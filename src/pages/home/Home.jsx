@@ -1,10 +1,12 @@
 import React from 'react'
-import HeroSection from '../../components/herosection/herosection'
+
 import About from '../about/About'
 import Room from '../room/Room'
 import Services from '../../components/Services/Services'
 import Contact from '../../components/Contact/Contact'
 import PhotoGallery from '../../components/PhotoGallery/PhotoGallery'
+import HeroSection from '../../components/Hero/HeroSection'
+
 
 
 const Home = () => {

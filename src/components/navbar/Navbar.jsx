@@ -105,7 +105,7 @@ const Navbar = () => {
         {isLoggedIn ? (
           <div className="hidden lg:block">
             <div className="dropdown dropdown-end">
-              <div tabIndex={0} role="button" className=" m-1 bg-green-500">
+              <div tabIndex={0} role="button" className=" m-1 hover hover:cursor-pointer text-3xl  bg-green-500">
                 < FaUserAlt />
               </div>
               <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box space-y-2 z-1 w-52 p-2 shadow-sm">
