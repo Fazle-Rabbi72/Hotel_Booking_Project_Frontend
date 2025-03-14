@@ -5,7 +5,7 @@ const RoomReviewForm = ({ roomId }) => {
   const [rating, setRating] = useState("⭐⭐⭐⭐");
   const [comment, setComment] = useState("");
   const [message, setMessage] = useState("");
-  const userId= localStorage.getItem("user_id");
+  const userId= localStorage.getItem("user_id"); //getting id from local storage
 
   const handleSubmit = async (e) => {
     e.preventDefault();
