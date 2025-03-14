@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import RoomBooking from './RoomBooking';
+import RoomReviewForm from '../../components/Reviews/RoomReviewForm';
 
 
 const RoomDetails = () => {
@@ -54,6 +55,7 @@ const RoomDetails = () => {
           <RoomBooking room={id} />
         </div>
       </div>
+      <RoomReviewForm roomId={id} />
     </div>
   );
 };
