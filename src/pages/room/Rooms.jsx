@@ -24,11 +24,11 @@ const Rooms = () => {
     setLoading(true);
     setError(null);
 
-    let apiUrl = "http://127.0.0.1:8000/rooms/";
+    let apiUrl = "https://natures-paradise-stlb.onrender.com/rooms/";
 
     // Check-in & Check-out থাকলে API-তে পাঠাবে
     if (checkIn && checkOut) {
-      fetch("http://127.0.0.1:8000/rooms/check_availability/", {
+      fetch("https://natures-paradise-stlb.onrender.com/rooms/check_availability/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
