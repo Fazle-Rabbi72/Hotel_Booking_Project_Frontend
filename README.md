@@ -3,7 +3,7 @@
 A full-stack **Hotel Booking Platform** with user authentication, room search, real-time balance management, and user engagement through reviews and automated notifications.
 
 ## 🌐 Project Links
-- **Live Site:** [Hotel Booking Live Site](https://hotel-booking-project-frontend.vercel.app/)
+- **Live Site:** [Hotel Booking Live Site](https://hotel-booking-system23.netlify.app/)
 
 ## 🚀 Features
 
